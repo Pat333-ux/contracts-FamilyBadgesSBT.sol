@@ -1,0 +1,22 @@
+{
+  "name": "munisible-family-sbt",
+  "version": "1.0.0",
+  "description": "ERC-5192 Soulbound Token (SBT) credential system for Munisible Task Force & Family First programs.",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "deploy:local": "hardhat run scripts/deploySBT.js --network localhost",
+    "deploy:sepolia": "hardhat run scripts/deploySBT.js --network sepolia"
+  },
+  "keywords": ["sbt", "soulbound", "erc5192", "munisible", "family-first"],
+  "author": "Munisible Task Force",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.0"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.0.2"
+  }
+}
