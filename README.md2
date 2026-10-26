@@ -1,0 +1,14 @@
+# Munisible Task Force - Soulbound Credentials (SBT)
+
+ERC-5192 compliant Soulbound Token (SBT) framework for issuing non-transferable proof-of-achievement badges across Munisible Task Force and Family First programs.
+
+## 🏅 Core Credentials
+* **Family Guardian:** Issued for preserving family integrity and providing mentorship.
+* **Self-Mastery Tier 1-3:** Awarded upon completing key personal growth milestones.
+* **Task Force Leader:** Granted to verified local community leaders and mission heads.
+
+## 🛠 Quick Start
+```bash
+npm install
+npm run compile
+npm run test
